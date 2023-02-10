@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Broad Spectrum Services - Lean Management & Business Consulting</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Broad Spectrum Services</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Broad Spectrum Services is a leading lean management and business consulting firm based in Austin, Texas. We help businesses optimize their operations, improve efficiency and boost their bottom line. Our team of experts has years of experience and a deep understanding of the latest industry trends and best practices.</p>
+      </section>
+      <section id="services">
+        <h2>Services</h2>
+        <ul>
+          <li>Lean Management Consulting</li>
+          <li>Business Process Optimization</li>
+          <li>Strategic Planning and Execution</li>
+          <li>Performance Metrics and Analytics</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Broad Spectrum Services 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
